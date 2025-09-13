@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Logs / temp
+*.log
+*.tmp
+
+# Output of pdf compressed file
+output/
+.output
+
+#Input of pdf file
+*.pdf
