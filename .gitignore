@@ -20,9 +20,11 @@ venv/
 *.log
 *.tmp
 
-# Output of pdf compressed file
-output/
-.output
+# Ignore everything inside output/
+output/*
+
+# But don’t ignore the folder itself
+!output/.gitkeep
 
 #Input of pdf file
 *.pdf
